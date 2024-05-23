@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which of the following types of data are less than 15% of the data stored?",
+        "options": ["Structured", "Unstructured", "Semi-structured"],
+        "correct": "0"
+    },
+    {
+        "question": "Which type of data can video files be processed as?",
+        "options": ["Structured", "Unstructured", "Semi-structured"],
+        "correct": "1"
+    },
+    {
+        "question": "XML files are typically considered as:",
+        "options": ["Structured data", "Unstructured data", "Semi-structured data"],
+        "correct": "2"
+    },
+    {
+        "question": "As a result of which job in MapReduce are individual elements broken down into tuples?",
+        "options": ["Map job", "Reduce job", "Shuffle job"],
+        "correct": "0"
+    },
+    {
+        "question": "Which node in HDFS is responsible for storing metadata on the local file system?",
+        "options": ["Data Node", "Name Node", "Secondary Name Node"],
+        "correct": "1"
+    },
+    {
+        "question": "Which node in HDFS is considered unavailable if it does not send a heartbeat message for a certain period?",
+        "options": ["Data Node", "Name Node", "Secondary Name Node"],
+        "correct": "0"
+    },
+    {
+        "question": "Which node in HDFS is responsible for serving read and write requests from the file system's clients?",
+        "options": ["Data Node", "Name Node", "Secondary Name Node"],
+        "correct": "0"
+    },
+    {
+        "question": "When designing the HDFS architecture, one of the benefits of its easy scalability is:",
+        "options": ["Vertical scalability", "Horizontal scalability", "Linear scalability"],
+        "correct": "1"
+    },
+    {
+        "question": "If the confidence of an association rule is high, then the rule is interesting.",
+        "options": ["True", "False"],
+        "correct": "1"
+    },
+    {
+        "question": "If {1,2,3} is a frequent item set, then {1,2} is also frequent.",
+        "options": ["True", "False"],
+        "correct": "0"
+    },
+    {
+        "question": "If {a, b} is not a frequent item set, then {a} is not frequent.",
+        "options": ["True", "False"],
+        "correct": "1"
+    },
+    {
+        "question": "Each closed frequent item set is maximal.",
+        "options": ["True", "False"],
+        "correct": "1"
+    },
+    {
+        "question": "Which characteristics are included in Gartner's definition of Big Data? Select one or more:",
+        "options": ["Validity", "Variety", "Veracity", "Visualization", "Variability", "Velocity", "Volume", "Volatility"],
+        "correct": "1,2,5,6"
+    },
+    {
+        "question": "Choose the frequent item set(s) from the following ones if the support threshold is 4. Select one or more:",
+        "options": ["{chocolate}", "{coke}", "{bread}", "{chocolate, salami}", "{salami, milk}", "{milk}", "{butter}", "{salami}", "{salami, bread}", "{butter, chocolate}"],
+        "correct": "0,5,6,7,9"
+    },
+    {
+        "question": "Calculate the confidence of the association rule {milk} -> {coke} based on the provided transactions.",
+        "options": ["0.33", "0.5", "0.67", "1.0"],
+        "correct": "1"
+    },
+    {
+        "question": "Calculate the interest of the association rule {milk} -> {coke} based on the provided transactions.",
+        "options": ["0", "0.125", "0.25", "0.5"],
+        "correct": "0"
+    },
+    {
+        "question": "Which of the following statements are correct about the k-means algorithm? Select one or more:",
+        "options": ["The k-means method is a hierarchical clustering algorithm
